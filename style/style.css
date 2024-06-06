@@ -1,0 +1,536 @@
+*:root {
+    --verde: #00ffad;
+    --azul: #192440;
+    --gris: #292b2c;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header, footer, section {
+    max-width: -webkit-fill-available;
+}
+
+header {
+    background-image: url(../assets/images/banner-bk.jpg);
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.logo {
+    height: 80px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.inicio {
+    font-size: 22px;
+}
+
+.inicio h1, .inicio p {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.inicio button {
+    margin-top: 0;
+    background-color: var(--verde);
+    color: var(--azul);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 32px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+
+.inicio p {
+    font-size: 22px;
+    width: 60%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 50px;
+    padding: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smartest {
+    display: flex;
+    font-size: 32px;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+    color: var(--gris);
+}
+
+.smartest div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.anti-span, .phishing-detect, .smart-scan {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.anti-span, .phishing-detect, .smart-scan h3 {
+   font-size: 17px; 
+}
+
+.anti-span, .phishing-detect, .smart-scan img {
+    height: 175px;
+}
+
+
+.features {
+    background: linear-gradient(346deg, var(--verde) 50%, white 50%);
+    padding: 7%;
+}
+
+.features article div h2, .servicios h2 {
+    font-size: 34px;
+}
+
+.features article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features article div p {
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.features article img {
+    height: 250px;
+}
+
+.feature-button {
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.feature2 {
+    margin-top: 12%;
+    flex-direction:row-reverse;
+}
+
+h2, h3, b {
+    color: var(--gris)
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 9%;
+    border-radius: 5px;
+    width: 15%;
+    border: 1px solid #ddd;
+}
+
+.servicios h2 {
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.servicio h3 {
+    font-size: 17px;
+    margin-bottom: 49px;
+}
+
+.servicio b {
+    font-size: 11px;
+    margin-bottom: 28px;
+}
+
+.servicio b  {
+    font-size: 64px;
+}
+
+#servicio-premium {
+    background-color: var(--azul);
+    color: white;
+}
+
+#servicio-premium h3, #servicio-premium b {
+    color: white;
+}
+
+.servicio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicio ul li {
+    margin: 10px 0;
+}
+
+.clientes {
+    background-color: #eceeef;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn-servicio {
+    color: var(--azul);
+    border: 2px solid var(--azul);
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+.boton-servicio-premium {
+    border: none;
+    background-color: var(--verde);
+    color: var(--azul);
+    margin-top: 39px;
+}
+
+.servicio b {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-size: 30px;
+}
+
+.contacto {
+    background-image: url(../assets/images/contact-bk.jpg);
+    padding: 123px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.contacto div h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.datos-contacto {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.contacto p {
+    margin-bottom: 28px;
+    margin-top: 38px;
+    width: 36%;
+    background-size: 100% 100%;
+}
+
+.contacto ul li {
+    margin-bottom: 18px;
+}
+
+.contacto form {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    color: var(--verde);
+    margin-bottom: 14px;
+}
+
+#formularios {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 23px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.formulario {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    color: var(--verde);
+    background-color: transparent;
+    border: 1px solid var(--verde);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    padding: 0px;
+    height: 10vh;
+}
+
+input[type="submit"] {
+    background-color: var(--verde);
+    margin-bottom: 10px;
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.media {
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    border: none;
+    padding: 14px;
+    margin: 4.5px;
+}
+
+footer {
+    background-color: var(--azul);
+    color: white;
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .inicio p {
+        width: 100%;
+    }
+
+    .inicio {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .inicio a {
+        align-self: center;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .inicio>a>button {
+        font-size: 48px;
+        width: 100%;
+    }
+
+    .inicio>p {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    #head a {
+        font-size: 32px;
+    }
+
+    .clientes img {
+        height: 10vh;
+        margin: 10px;
+        max-width: 48vw;
+        padding-right: min(50px, 50%);
+    }
+
+    section, header, footer {
+        width: 100%;
+        width: fit-content;
+    }
+
+    .servicios, #head, footer {
+        width: auto;
+    }
+
+    .contacto {
+        padding: 50px;
+        flex-flow: column;
+        width: auto;
+    }
+
+    .datos-contacto {
+        width: 100%;
+    }
+
+    .contacto div h2 {
+        font-size: 48;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .contacto p, .contacto span {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .formulario {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    #formularios {
+        flex-flow: column;
+    }
+
+    .features article div p {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .smartest {
+        font-size: 24px;
+        width: auto;
+    }
+
+    .smartest div {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anti-span, .phishing-detect, .smart-scan {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .anti-span, .phishing-detect, .smart-scan img {
+        height: 100%;
+    }
+
+    .anti-span, .phishing-detect, .smart-scan h3 {
+        font-size: 48px;
+    }
+
+    .anti-span, .phishing-detect, .smart-scan p {
+        font-size: 24px;
+        width: 70%;
+    }
+
+    .features article img {
+        align-self: center;
+        height: 17vh;
+    }
+
+    .feature-button {
+        font-size: 18px;
+        width: 80%;
+        align-self: center;
+    }
+
+    .servicios div {
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .servicio {
+        width: 75%;
+    }
+
+    .servicio h3 {
+        font-size: 48px;
+    }
+
+    .btn-servicio, .boton-servicio-premium {
+        font-size: 24px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .inicio>a>button {
+        font-size: 24px;
+    }
+
+    .features article {
+        flex-flow: column-reverse;
+    }
+
+    .features article>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .servicio {
+        width: 70%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer>div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .servicio {
+        width: 25%;
+    }
+}
